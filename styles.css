@@ -1,0 +1,135 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 16px 400px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav .header-links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-links li {
+    list-style-type: none;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-header {
+    display: flex;
+    padding: 100px 0;
+    text-align: left;
+    justify-content: space-between;
+}
+
+#container-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#container-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0px
+}
+
+#product {
+    height: 215px;
+    width: 650px;
+}
+
+#signup-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px 26px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.body {
+    height: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 400px;
+}
+
+.bottom-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-photo {
+    width: 200px;
+    border: solid blue;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 400px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-cta {
+    background-color: #3882F6;
+    font-size: 36px;
+    margin: 20px 0;
+    color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 20px;
+    height: 100px;
+}
